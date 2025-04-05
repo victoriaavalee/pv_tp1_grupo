@@ -2,10 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/contacto.css">  <!--CREAR CONTACTO.CSS-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 </head>
 <body>
-    <!--Donde se muestre un formulario para enviar un mensaje al sitio-->
+    <header>
+        <!--Comun a todos-->
+    </header>
+    <nav>
+        <!--Comun a todos-->
+    </nav>
+    <!-- ///////////////////// formulario ////////////////////// -->
+    <main>
+        <div>
+            <form action="./index.html" method="GET">
+                <h3>CONTACTO</h3>
+                <div>
+                    <label for="nombreApellido">Nombre y apellido*</label><br>
+                    <input type="text" id="nombreApellido" placeholder="Nombre completo" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo electrónico*</label><br>
+                    <input type="email" id="correo" placeholder="Su correo electrónico" required>
+                </div>
+                <br>
+                <div>
+                    <label for="asunto">Asunto</label><br>
+                    <input type="text" id="asunto" placeholder="Consulta" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea cols="50" rows="10" id="mensaje" placeholder="Su mensaje" required></textarea>
+                </div>
+                <br>
+                <div >
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- ////////////////////// footer ////////////////////// -->
+    <footer>
+        <!--Común a todos-->
+    </footer>
 </body>
 </html>
