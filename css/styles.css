@@ -1,1 +1,41 @@
-/*Utilizar selectores CSS para aplicar reglas de estilo utilizando clases (class) e identificadores (id) para los elementos html.*/
+
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ////////////////////////////footer/////////////////*/
+footer{
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
+.conteiner-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.section-footer{
+    flex:1;
+    padding: 0 20px 0;
+}
+.title-footer{
+    font-size:15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section-footer a {
+    color: white;
+    text-decoration: none;
+}
+.section-footer ul{    
+    list-style: none;
+    padding: 0;
+}
+.redes i{
+    margin: 0px 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+}
