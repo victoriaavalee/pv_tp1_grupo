@@ -114,6 +114,21 @@ hr {
 }
 .p_i {
     font-size: 18px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display:flex;
+    align-items: center;
+    line-height: 200%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.c_i {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*/////////////////////////CSS museo///////////////////////*/
