@@ -138,6 +138,19 @@ hr {
     margin-bottom: 20px;
 }
 
+.t_i {
+    width: 400px;
+    height: 60px;
+    border-radius: 12px; 
+    background-color: #333;
+    align-content: justify;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 20px;
+    
+ }
+
 /*/////////////////////////CSS museo///////////////////////*/
 #main2 {
     display: grid;
