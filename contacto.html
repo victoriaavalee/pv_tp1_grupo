@@ -8,39 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Contacto</title>
 </head>
-<body>
+<body id="body-contacto">
     <header>
-        <!--Comun a todos-->
+        <div id="encabezado2">
+            <h1>Contacto</h1>
+            <p>¡Contactate con nosotros!</p>
+        </div>
     </header>
-    <nav>
-        <!--Comun a todos-->
-    </nav>
     <!-- ///////////////////// formulario ////////////////////// -->
-    <main>
-        <div>
+    <main class="main-contacto">
+        <div class="form-container">
             <form action="./index.html" method="GET">
                 <h3>CONTACTO</h3>
-                <div>
-                    <label for="nombreApellido">Nombre y apellido*</label><br>
+                <div class="form-group">
+                    <label for="nombreApellido">Nombre y apellido*</label>
                     <input type="text" id="nombreApellido" placeholder="Nombre completo" required/>
                 </div>
-                <br>
-                <div>
-                    <label for="correo">Correo electrónico*</label><br>
+                <div class="form-group">
+                    <label for="correo">Correo electrónico*</label>
                     <input type="email" id="correo" placeholder="Su correo electrónico" required>
                 </div>
-                <br>
-                <div>
-                    <label for="asunto">Asunto</label><br>
+                <div class="form-group">
+                    <label for="asunto">Asunto*</label>
                     <input type="text" id="asunto" placeholder="Consulta" required>
                 </div>
-                <br>
-                <div>
-                    <label for="mensaje">Mensaje</label><br>
-                    <textarea cols="50" rows="10" id="mensaje" placeholder="Su mensaje" required></textarea>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea class="form-textarea" cols="50" rows="10" id="mensaje" placeholder="Su mensaje" required></textarea>
                 </div>
-                <br>
-                <div >
+                <div class="form-buttons">
                     <button type="reset">Borrar</button>
                     <button type="submit">Enviar</button>
                 </div>
@@ -48,7 +44,7 @@
         </div>
     </main>
     <!-- ////////////////////// footer ////////////////////// -->
-    <footer>
+    <footer class="footer-contacto">
         <div class="conteiner-footer">
             <section class="section-footer">
                 <p class="title-footer">Información</p>

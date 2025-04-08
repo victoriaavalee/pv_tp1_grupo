@@ -2,10 +2,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 /*/////////////////////footer/////////////////////*/
 footer{
-    margin-top: 20px;
     background-color: #333;
     color: white;
 }
@@ -16,7 +16,7 @@ footer{
 }
 .section-footer{
     flex:1;
-    padding: 0 20px 0;
+    padding: 0 80px ;
 }
 .title-footer{
     font-size:15px;
@@ -33,7 +33,7 @@ footer{
 }
 .redes i{
     margin: 0px 10px;
-    font-size: 25px;
+    font-size: 35px;
     cursor: pointer;
 }
 .copyright{
@@ -45,7 +45,7 @@ footer{
     background-color: antiquewhite;
 }
 
-/*/////////////////////index/////////////////////*/
+/*///////////////////////////////////////////////index/////////////////////////////////*/
 #Header_h1
     {
         font-size: 50px;
@@ -135,6 +135,7 @@ hr {
 .c_i {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /*/////////////////////////CSS museo///////////////////////*/
@@ -200,4 +201,75 @@ hr {
     text-align: center;
 }
 
-/*/////////////////////////CSS museo///////////////////////*/
+/*/////////////////////////////////////////Contacto//////////////////////////////////////*/
+.main-contacto {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color:#ebebeb;;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.581);
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+div label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div input,textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+div textarea{
+    height: 150px;
+}
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    flex: 1;
+    padding: 10px;
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #d9534f;
+}
+
+.form-buttons  button:hover {
+    filter: brightness(1.1);
+}
