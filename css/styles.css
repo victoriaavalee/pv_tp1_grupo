@@ -227,6 +227,7 @@ hr {
     padding: 30px;
     border-radius: 15px;
     max-width: 500px;
+    height: 50%;
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.581);
 }
@@ -285,4 +286,13 @@ div textarea{
 
 .form-buttons  button:hover {
     filter: brightness(1.1);
+}
+
+.main-contacto{
+    flex: 1;
+}
+#body-contacto{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
